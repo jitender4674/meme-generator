@@ -1,0 +1,40 @@
+.meme-card{
+    margin: 20px;
+    /* width: 40%; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* position: relative; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    
+}
+
+.meme-card-image{
+    width: 100%;
+}
+
+.meme-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid gray;
+    position: relative;
+}
+
+.meme-card-edit-button{
+    background-color: rgb(255, 21, 21);
+    color: white;
+    border: none;
+    padding: 5px 9px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.6)
+}
+
+.meme-card-edit-button:hover{
+    cursor: pointer;
+}
+
+.meme-card-edit-button:active{
+    background-color: rgb(164, 2, 2);
+}
