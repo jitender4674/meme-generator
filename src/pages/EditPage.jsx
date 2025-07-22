@@ -38,7 +38,7 @@ function EditPage(){
 
         <button onClick={addText}>Add text</button>
         <button onClick={handleDownload}>Save</button>
-            <p>double click to activate the edit field and also to grab and move</p>
+            <p>double click to activate and deactivate the edit field and also to grab and move</p>
         </div>
     )
 };
