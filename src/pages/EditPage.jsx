@@ -30,7 +30,7 @@ function EditPage(){
     }
 
     return(
-        <div>
+        <div className = "edit-page-container">
         <div className="meme-container" ref={memeRef}>
             <img className="meme-edit-image" src={params.get("url")} alt=""  />
             {Array(count).fill(0).map((_,i) => <Text key={i}/>)}
@@ -38,6 +38,7 @@ function EditPage(){
 
         <button onClick={addText}>Add text</button>
         <button onClick={handleDownload}>Save</button>
+            <p>double click to activate the edit field and also to grab and move</p>
         </div>
     )
 };
